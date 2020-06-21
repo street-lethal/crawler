@@ -1,0 +1,6 @@
+crawl:
+  build: .
+  working_dir: /app
+  volumes:
+    - ./io:/app/io
+    - ./src:/app/src
